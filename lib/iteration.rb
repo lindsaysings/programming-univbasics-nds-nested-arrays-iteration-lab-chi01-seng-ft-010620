@@ -18,15 +18,13 @@ def join_ingredients(src)
   new_array
 end
 
-def find_greater_pair(src)
+def greater_number(src)
 new_array = []
 row_index = 0
 while row_index < src.count do
-  if row_index[0] > row_index[1]
-  new_array << src[row_index][0]
-  else
-  new_array << src[row_index][1]
-  end
+  max_in_row = src[row_index].max
+  new_array << max_in_row
+
   row_index += 1
 
 end
