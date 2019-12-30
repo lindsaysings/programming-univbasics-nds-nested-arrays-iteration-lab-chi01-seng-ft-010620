@@ -18,7 +18,7 @@ def join_ingredients(src)
   new_array
 end
 
-def greater_number(src)
+def find_greater_pair(src)
 new_array = []
 row_index = 0
 while row_index < src.count do
